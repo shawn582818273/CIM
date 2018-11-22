@@ -20,8 +20,6 @@ namespace CIM
         private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             DialogResult dr = MessageBoxEx.Show("您确定要退出吗？", "退出确认", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-
-
             if (dr == DialogResult.Yes)        //如果单击“是”按钮
             {
                 e.Cancel = false;                 //关闭窗体
@@ -32,9 +30,15 @@ namespace CIM
             }
         }
 
-        private void tabPage1_Enter(object sender, EventArgs e)
+        private void tabPage2_Enter(object sender, EventArgs e)
         {
-
+            SECSSetting frm = new SECSSetting();
+            frm.TopLevel = false;
+            frm.Dock = DockStyle.Fill;
+            frm.WindowState = FormWindowState.Maximized;
+            this.tabPage2.Controls.Add(frm);
+            //frm.Parent = this.tabPage1;
+            frm.Show();
         }
     }
 }
