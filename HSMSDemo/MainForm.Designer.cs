@@ -202,7 +202,7 @@
             this.tabPage1.Location = new System.Drawing.Point(0, 90);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1368, 663);
+            this.tabPage1.Size = new System.Drawing.Size(1368, 697);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -221,10 +221,10 @@
             // tabPage3
             // 
             this.tabPage3.ImageIndex = 3;
-            this.tabPage3.Location = new System.Drawing.Point(0, 36);
+            this.tabPage3.Location = new System.Drawing.Point(0, 90);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1368, 717);
+            this.tabPage3.Size = new System.Drawing.Size(1368, 697);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "tabPage3";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -235,7 +235,7 @@
             this.tabPage4.Location = new System.Drawing.Point(0, 90);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1368, 663);
+            this.tabPage4.Size = new System.Drawing.Size(1368, 697);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "tabPage4";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -266,6 +266,7 @@
             this.MainMenuStrip = this.skinMenuStrip1;
             this.Name = "MainForm";
             this.Text = "MainForm";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();
             this.splitContainer1.Panel2.ResumeLayout(false);
