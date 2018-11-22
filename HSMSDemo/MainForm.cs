@@ -31,5 +31,10 @@ namespace CIM
                 e.Cancel = true;                  //不执行操作
             }
         }
+
+        private void tabPage1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

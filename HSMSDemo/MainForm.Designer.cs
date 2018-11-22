@@ -67,7 +67,7 @@
             // 
             this.splitContainer1.Panel2.Controls.Add(this.skinTabControl1);
             this.splitContainer1.Size = new System.Drawing.Size(1368, 816);
-            this.splitContainer1.SplitterDistance = 25;
+            this.splitContainer1.SplitterDistance = 34;
             this.splitContainer1.TabIndex = 0;
             // 
             // skinMenuStrip1
@@ -191,7 +191,7 @@
             this.skinTabControl1.PageImagePosition = CCWin.SkinControl.SkinTabControl.ePageImagePosition.Top;
             this.skinTabControl1.PageNorml = null;
             this.skinTabControl1.SelectedIndex = 0;
-            this.skinTabControl1.Size = new System.Drawing.Size(1368, 787);
+            this.skinTabControl1.Size = new System.Drawing.Size(1368, 778);
             this.skinTabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.skinTabControl1.TabIndex = 0;
             // 
@@ -202,10 +202,11 @@
             this.tabPage1.Location = new System.Drawing.Point(0, 90);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1368, 697);
+            this.tabPage1.Size = new System.Drawing.Size(1368, 688);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
+            this.tabPage1.Enter += new System.EventHandler(this.tabPage1_Enter);
             // 
             // tabPage2
             // 
