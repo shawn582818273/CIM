@@ -15,3 +15,4 @@
 \\Mac\Home\Documents\Visual Studio 2015\Projects\CIM\HSMSDemo\obj\Debug\CIM.pdb
 \\Mac\Home\Documents\Visual Studio 2015\Projects\CIM\HSMSDemo\obj\Debug\CIM.MainForm.resources
 \\Mac\Home\Documents\Visual Studio 2015\Projects\CIM\HSMSDemo\obj\Debug\CIM.csproj.GenerateResource.Cache
+\\Mac\Home\Documents\Visual Studio 2015\Projects\CIM\HSMSDemo\obj\Debug\CIM.SECSSetting.resources
