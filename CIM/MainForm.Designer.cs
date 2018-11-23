@@ -31,6 +31,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             CCWin.SkinControl.Animation animation1 = new CCWin.SkinControl.Animation();
+            CCWin.CmSysButton cmSysButton1 = new CCWin.CmSysButton();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.skinMenuStrip1 = new CCWin.SkinControl.SkinMenuStrip();
             this.开始ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -44,6 +45,10 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.imageList = new System.Windows.Forms.ImageList(this.components);
+            this.skinWaterTextBox1 = new CCWin.SkinControl.SkinWaterTextBox();
+            this.skinWaterTextBox2 = new CCWin.SkinControl.SkinWaterTextBox();
+            this.skinButton1 = new CCWin.SkinControl.SkinButton();
+            this.skinButton2 = new CCWin.SkinControl.SkinButton();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -61,6 +66,10 @@
             // 
             // splitContainer1.Panel1
             // 
+            this.splitContainer1.Panel1.Controls.Add(this.skinButton2);
+            this.splitContainer1.Panel1.Controls.Add(this.skinButton1);
+            this.splitContainer1.Panel1.Controls.Add(this.skinWaterTextBox2);
+            this.splitContainer1.Panel1.Controls.Add(this.skinWaterTextBox1);
             this.splitContainer1.Panel1.Controls.Add(this.skinMenuStrip1);
             // 
             // splitContainer1.Panel2
@@ -94,6 +103,7 @@
             this.skinMenuStrip1.BaseItemSplitter = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(148)))), ((int)(((byte)(212)))));
             this.skinMenuStrip1.DropDownImageSeparator = System.Drawing.Color.FromArgb(((int)(((byte)(197)))), ((int)(((byte)(197)))), ((int)(((byte)(197)))));
             this.skinMenuStrip1.Fore = System.Drawing.Color.Black;
+            this.skinMenuStrip1.GripMargin = new System.Windows.Forms.Padding(0, 2, 0, 2);
             this.skinMenuStrip1.HoverFore = System.Drawing.Color.White;
             this.skinMenuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.skinMenuStrip1.ItemAnamorphosis = true;
@@ -213,7 +223,7 @@
             this.tabPage2.Location = new System.Drawing.Point(0, 90);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1368, 688);
+            this.tabPage2.Size = new System.Drawing.Size(1368, 642);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -225,7 +235,7 @@
             this.tabPage3.Location = new System.Drawing.Point(0, 90);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(1368, 697);
+            this.tabPage3.Size = new System.Drawing.Size(1368, 688);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "tabPage3";
             this.tabPage3.UseVisualStyleBackColor = true;
@@ -236,7 +246,7 @@
             this.tabPage4.Location = new System.Drawing.Point(0, 90);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(1368, 697);
+            this.tabPage4.Size = new System.Drawing.Size(1368, 688);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "tabPage4";
             this.tabPage4.UseVisualStyleBackColor = true;
@@ -258,16 +268,79 @@
             this.imageList.Images.SetKeyName(10, "ico_TraceCleaner.png");
             this.imageList.Images.SetKeyName(11, "ico_VulRepair.png");
             // 
+            // skinWaterTextBox1
+            // 
+            this.skinWaterTextBox1.Location = new System.Drawing.Point(567, 3);
+            this.skinWaterTextBox1.Name = "skinWaterTextBox1";
+            this.skinWaterTextBox1.Size = new System.Drawing.Size(218, 28);
+            this.skinWaterTextBox1.TabIndex = 1;
+            this.skinWaterTextBox1.Text = "username";
+            this.skinWaterTextBox1.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
+            this.skinWaterTextBox1.WaterText = "";
+            // 
+            // skinWaterTextBox2
+            // 
+            this.skinWaterTextBox2.Location = new System.Drawing.Point(800, 4);
+            this.skinWaterTextBox2.Name = "skinWaterTextBox2";
+            this.skinWaterTextBox2.Size = new System.Drawing.Size(218, 28);
+            this.skinWaterTextBox2.TabIndex = 2;
+            this.skinWaterTextBox2.Text = "password";
+            this.skinWaterTextBox2.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
+            this.skinWaterTextBox2.WaterText = "";
+            // 
+            // skinButton1
+            // 
+            this.skinButton1.BackColor = System.Drawing.Color.Transparent;
+            this.skinButton1.ControlState = CCWin.SkinClass.ControlState.Normal;
+            this.skinButton1.DownBack = null;
+            this.skinButton1.Location = new System.Drawing.Point(1059, 5);
+            this.skinButton1.MouseBack = null;
+            this.skinButton1.Name = "skinButton1";
+            this.skinButton1.NormlBack = null;
+            this.skinButton1.Size = new System.Drawing.Size(75, 23);
+            this.skinButton1.TabIndex = 3;
+            this.skinButton1.Text = "Login";
+            this.skinButton1.UseVisualStyleBackColor = false;
+            // 
+            // skinButton2
+            // 
+            this.skinButton2.BackColor = System.Drawing.Color.Transparent;
+            this.skinButton2.ControlState = CCWin.SkinClass.ControlState.Normal;
+            this.skinButton2.DownBack = null;
+            this.skinButton2.Location = new System.Drawing.Point(1151, 5);
+            this.skinButton2.MouseBack = null;
+            this.skinButton2.Name = "skinButton2";
+            this.skinButton2.NormlBack = null;
+            this.skinButton2.Size = new System.Drawing.Size(75, 23);
+            this.skinButton2.TabIndex = 3;
+            this.skinButton2.Text = "Exit";
+            this.skinButton2.UseVisualStyleBackColor = false;
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1376, 848);
             this.Controls.Add(this.splitContainer1);
+            this.HelpButton = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.skinMenuStrip1;
             this.Name = "MainForm";
-            this.Text = "MainForm";
+            cmSysButton1.Bounds = new System.Drawing.Rectangle(1216, 0, 58, 30);
+            cmSysButton1.BoxState = CCWin.ControlBoxState.Normal;
+            cmSysButton1.Location = new System.Drawing.Point(1216, 0);
+            cmSysButton1.Name = null;
+            cmSysButton1.OwnerForm = this;
+            cmSysButton1.Size = new System.Drawing.Size(58, 30);
+            cmSysButton1.SysButtonDown = ((System.Drawing.Image)(resources.GetObject("cmSysButton1.SysButtonDown")));
+            cmSysButton1.SysButtonMouse = ((System.Drawing.Image)(resources.GetObject("cmSysButton1.SysButtonMouse")));
+            cmSysButton1.SysButtonNorml = ((System.Drawing.Image)(resources.GetObject("cmSysButton1.SysButtonNorml")));
+            cmSysButton1.ToolTip = null;
+            this.SysButtonItems.AddRange(new CCWin.CmSysButton[] {
+            cmSysButton1});
+            this.Text = "CIM";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();
             this.splitContainer1.Panel2.ResumeLayout(false);
@@ -295,5 +368,9 @@
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.ImageList imageList;
+        private CCWin.SkinControl.SkinButton skinButton2;
+        private CCWin.SkinControl.SkinButton skinButton1;
+        private CCWin.SkinControl.SkinWaterTextBox skinWaterTextBox2;
+        private CCWin.SkinControl.SkinWaterTextBox skinWaterTextBox1;
     }
 }

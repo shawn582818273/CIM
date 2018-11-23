@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIM", "HSMSDemo\CIM.csproj", "{9A3C7E15-C854-4CEE-9C49-AD6B3C180EC1}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HSMSMessage", "HSMSMessage\HSMSMessage.csproj", "{6CB87267-3860-40A6-8DED-3EDE2A0634BC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HSMSDriver", "HSMSDriver\HSMSDriver.csproj", "{4667F2E3-4770-4691-9B05-8041A0D9C9B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIM", "CIM\CIM.csproj", "{9A3C7E15-C854-4CEE-9C49-AD6B3C180EC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,14 +17,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9A3C7E15-C854-4CEE-9C49-AD6B3C180EC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9A3C7E15-C854-4CEE-9C49-AD6B3C180EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9A3C7E15-C854-4CEE-9C49-AD6B3C180EC1}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{9A3C7E15-C854-4CEE-9C49-AD6B3C180EC1}.Debug|x86.Build.0 = Debug|Any CPU
-		{9A3C7E15-C854-4CEE-9C49-AD6B3C180EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9A3C7E15-C854-4CEE-9C49-AD6B3C180EC1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9A3C7E15-C854-4CEE-9C49-AD6B3C180EC1}.Release|x86.ActiveCfg = Release|Any CPU
-		{9A3C7E15-C854-4CEE-9C49-AD6B3C180EC1}.Release|x86.Build.0 = Release|Any CPU
 		{6CB87267-3860-40A6-8DED-3EDE2A0634BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6CB87267-3860-40A6-8DED-3EDE2A0634BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CB87267-3860-40A6-8DED-3EDE2A0634BC}.Debug|x86.ActiveCfg = Debug|Any CPU
@@ -41,6 +33,14 @@ Global
 		{4667F2E3-4770-4691-9B05-8041A0D9C9B6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4667F2E3-4770-4691-9B05-8041A0D9C9B6}.Release|x86.ActiveCfg = Release|Any CPU
 		{4667F2E3-4770-4691-9B05-8041A0D9C9B6}.Release|x86.Build.0 = Release|Any CPU
+		{9A3C7E15-C854-4CEE-9C49-AD6B3C180EC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A3C7E15-C854-4CEE-9C49-AD6B3C180EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A3C7E15-C854-4CEE-9C49-AD6B3C180EC1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9A3C7E15-C854-4CEE-9C49-AD6B3C180EC1}.Debug|x86.Build.0 = Debug|Any CPU
+		{9A3C7E15-C854-4CEE-9C49-AD6B3C180EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A3C7E15-C854-4CEE-9C49-AD6B3C180EC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A3C7E15-C854-4CEE-9C49-AD6B3C180EC1}.Release|x86.ActiveCfg = Release|Any CPU
+		{9A3C7E15-C854-4CEE-9C49-AD6B3C180EC1}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

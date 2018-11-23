@@ -32,7 +32,7 @@ namespace CIM
 
         private void tabPage2_Enter(object sender, EventArgs e)
         {
-            SECSSetting frm = new SECSSetting();
+            SECSSetting frm = SECSSetting.CreateFrom();
             frm.TopLevel = false;
             frm.Dock = DockStyle.Fill;
             frm.WindowState = FormWindowState.Maximized;
@@ -40,5 +40,22 @@ namespace CIM
             //frm.Parent = this.tabPage1;
             frm.Show();
         }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+        #region 窗体单例
+        private static MainForm formInstance;
+        public static MainForm CreateFrom()
+        {
+            //判断是否存在该窗体,或时候该字窗体是否被释放过,如果不存在该窗体,则 new 一个字窗体
+            if (formInstance == null || formInstance.IsDisposed)
+            {
+                formInstance = new MainForm();
+            }
+            return formInstance;
+        }
+        #endregion 窗体单例
     }
 }
