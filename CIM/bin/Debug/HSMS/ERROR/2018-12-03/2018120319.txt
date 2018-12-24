@@ -1,0 +1,17 @@
+﻿2018-12-03 19:49:53,682 Connection refused
+System.Net.Sockets.SocketException (0x80004005): Connection refused
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x000b0] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/System/System.Net.Sockets/Socket.cs:886 
+  at System.Net.Sockets.TcpClient.Connect (System.Net.IPEndPoint remoteEP) [0x0002d] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/referencesource/System/net/System/Net/Sockets/TCPClient.cs:346 
+  at HSMSDriver.SECSConnector.OpenActiveConnection () [0x0002e] in /Users/pengfeihong/Documents/Visual Studio 2015/Projects/CIM/HSMSDriver/SECSConnector.cs:49 
+2018-12-03 19:49:53,699 SystemBytes: null, ERRCODE: ReadError, ERRDESC: Read Error: Connection refused..
+2018-12-03 19:51:57,396 Connection refused
+System.Net.Sockets.SocketException (0x80004005): Connection refused
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x000b0] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/System/System.Net.Sockets/Socket.cs:886 
+  at System.Net.Sockets.TcpClient.Connect (System.Net.IPEndPoint remoteEP) [0x0002d] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/referencesource/System/net/System/Net/Sockets/TCPClient.cs:346 
+  at HSMSDriver.SECSConnector.OpenActiveConnection () [0x0002e] in /Users/pengfeihong/Documents/Visual Studio 2015/Projects/CIM/HSMSDriver/SECSConnector.cs:49 
+2018-12-03 19:56:40,283 Connection refused
+System.Net.Sockets.SocketException (0x80004005): Connection refused
+  at System.Net.Sockets.Socket.Connect (System.Net.EndPoint remoteEP) [0x000b0] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/System/System.Net.Sockets/Socket.cs:886 
+  at System.Net.Sockets.TcpClient.Connect (System.Net.IPEndPoint remoteEP) [0x0002d] in /Users/builder/jenkins/workspace/build-package-osx-mono/2018-06/external/bockbuild/builds/mono-x64/mcs/class/referencesource/System/net/System/Net/Sockets/TCPClient.cs:346 
+  at HSMSDriver.SECSConnector.OpenActiveConnection () [0x0002e] in /Users/pengfeihong/Documents/Visual Studio 2015/Projects/CIM/HSMSDriver/SECSConnector.cs:49 
+2018-12-03 19:56:40,300 SystemBytes: null, ERRCODE: ReadError, ERRDESC: Read Error: Connection refused..

@@ -1,0 +1,2 @@
+2018-12-18 14:45:49,660 SystemBytes: null, ERRCODE: T6TimeOut, ERRDESC: T6 TimeOut: Control Timeout..
+2018-12-18 14:45:49,691 HSMSPort::OnDisconnect Reconnect

@@ -42,30 +42,43 @@ E:/代码/HSMSDemo/HSMSMessage/obj/Debug/HSMSMessage.pdb
 /Users/pengfeihong/Downloads/HSMSDemo/HSMSDemo/HSMSMessage/obj/Debug/HSMSMessage.csproj.CoreCompileInputs.cache
 /Users/pengfeihong/Downloads/HSMSDemo/HSMSDemo/HSMSMessage/obj/Debug/HSMSMessage.dll
 /Users/pengfeihong/Downloads/HSMSDemo/HSMSDemo/HSMSMessage/obj/Debug/HSMSMessage.pdb
-\\Mac\Home\Downloads\HSMSDemo\HSMSDemo\HSMSMessage\obj\Debug\HSMSMessage.csprojResolveAssemblyReference.cache
-\\Mac\Home\Downloads\HSMSDemo\HSMSDemo\HSMSMessage\obj\Debug\HSMSMessage.dll
-\\Mac\Home\Downloads\HSMSDemo\HSMSDemo\HSMSMessage\obj\Debug\HSMSMessage.pdb
-\\Mac\Home\Downloads\HSMSDemo\HSMSDemo\HSMSMessage\bin\Debug\HSMSMessage.dll
-\\Mac\Home\Downloads\HSMSDemo\HSMSDemo\HSMSMessage\bin\Debug\HSMSMessage.pdb
-\\Mac\Home\Downloads\HSMSDemo\HSMSDemo\HSMSMessage\bin\Debug\HSMSDriver.dll
-\\Mac\Home\Downloads\HSMSDemo\HSMSDemo\HSMSMessage\bin\Debug\log4net.dll
-\\Mac\Home\Downloads\HSMSDemo\HSMSDemo\HSMSMessage\bin\Debug\HSMSDriver.pdb
-\\Mac\Home\Downloads\HSMSDemo\HSMSDemo\HSMSMessage\bin\Debug\log4net.xml
-\\Mac\Home\Desktop\BOE\HSMSDemo20180930\HSMSMessage\bin\Debug\HSMSMessage.dll
-\\Mac\Home\Desktop\BOE\HSMSDemo20180930\HSMSMessage\bin\Debug\HSMSMessage.pdb
-\\Mac\Home\Desktop\BOE\HSMSDemo20180930\HSMSMessage\bin\Debug\HSMSDriver.dll
-\\Mac\Home\Desktop\BOE\HSMSDemo20180930\HSMSMessage\bin\Debug\log4net.dll
-\\Mac\Home\Desktop\BOE\HSMSDemo20180930\HSMSMessage\bin\Debug\HSMSDriver.pdb
-\\Mac\Home\Desktop\BOE\HSMSDemo20180930\HSMSMessage\bin\Debug\log4net.xml
-\\Mac\Home\Desktop\BOE\HSMSDemo20180930\HSMSMessage\obj\Debug\HSMSMessage.csprojResolveAssemblyReference.cache
-\\Mac\Home\Desktop\BOE\HSMSDemo20180930\HSMSMessage\obj\Debug\HSMSMessage.dll
-\\Mac\Home\Desktop\BOE\HSMSDemo20180930\HSMSMessage\obj\Debug\HSMSMessage.pdb
+//Mac/Home/Downloads/HSMSDemo/HSMSDemo/HSMSMessage/obj/Debug/HSMSMessage.csprojResolveAssemblyReference.cache
+//Mac/Home/Downloads/HSMSDemo/HSMSDemo/HSMSMessage/obj/Debug/HSMSMessage.dll
+//Mac/Home/Downloads/HSMSDemo/HSMSDemo/HSMSMessage/obj/Debug/HSMSMessage.pdb
+//Mac/Home/Downloads/HSMSDemo/HSMSDemo/HSMSMessage/bin/Debug/HSMSMessage.dll
+//Mac/Home/Downloads/HSMSDemo/HSMSDemo/HSMSMessage/bin/Debug/HSMSMessage.pdb
+//Mac/Home/Downloads/HSMSDemo/HSMSDemo/HSMSMessage/bin/Debug/HSMSDriver.dll
+//Mac/Home/Downloads/HSMSDemo/HSMSDemo/HSMSMessage/bin/Debug/log4net.dll
+//Mac/Home/Downloads/HSMSDemo/HSMSDemo/HSMSMessage/bin/Debug/HSMSDriver.pdb
+//Mac/Home/Downloads/HSMSDemo/HSMSDemo/HSMSMessage/bin/Debug/log4net.xml
+//Mac/Home/Desktop/BOE/HSMSDemo20180930/HSMSMessage/bin/Debug/HSMSMessage.dll
+//Mac/Home/Desktop/BOE/HSMSDemo20180930/HSMSMessage/bin/Debug/HSMSMessage.pdb
+//Mac/Home/Desktop/BOE/HSMSDemo20180930/HSMSMessage/bin/Debug/HSMSDriver.dll
+//Mac/Home/Desktop/BOE/HSMSDemo20180930/HSMSMessage/bin/Debug/log4net.dll
+//Mac/Home/Desktop/BOE/HSMSDemo20180930/HSMSMessage/bin/Debug/HSMSDriver.pdb
+//Mac/Home/Desktop/BOE/HSMSDemo20180930/HSMSMessage/bin/Debug/log4net.xml
+//Mac/Home/Desktop/BOE/HSMSDemo20180930/HSMSMessage/obj/Debug/HSMSMessage.csprojResolveAssemblyReference.cache
+//Mac/Home/Desktop/BOE/HSMSDemo20180930/HSMSMessage/obj/Debug/HSMSMessage.dll
+//Mac/Home/Desktop/BOE/HSMSDemo20180930/HSMSMessage/obj/Debug/HSMSMessage.pdb
+/Users/pengfeihong/Documents/Visual Studio 2015/Projects/CIM/HSMSMessage/bin/Debug/HSMSMessage.dll
+/Users/pengfeihong/Documents/Visual Studio 2015/Projects/CIM/HSMSMessage/bin/Debug/HSMSMessage.pdb
+/Users/pengfeihong/Documents/Visual Studio 2015/Projects/CIM/HSMSMessage/bin/Debug/HSMSDriver.dll
+/Users/pengfeihong/Documents/Visual Studio 2015/Projects/CIM/HSMSMessage/bin/Debug/log4net.dll
+/Users/pengfeihong/Documents/Visual Studio 2015/Projects/CIM/HSMSMessage/bin/Debug/HSMSDriver.pdb
+/Users/pengfeihong/Documents/Visual Studio 2015/Projects/CIM/HSMSMessage/bin/Debug/log4net.xml
+/Users/pengfeihong/Documents/Visual Studio 2015/Projects/CIM/HSMSMessage/obj/Debug/HSMSMessage.csprojAssemblyReference.cache
+/Users/pengfeihong/Documents/Visual Studio 2015/Projects/CIM/HSMSMessage/obj/Debug/HSMSMessage.csproj.CoreCompileInputs.cache
+/Users/pengfeihong/Documents/Visual Studio 2015/Projects/CIM/HSMSMessage/obj/Debug/HSMSMessage.csproj.CopyComplete
+/Users/pengfeihong/Documents/Visual Studio 2015/Projects/CIM/HSMSMessage/obj/Debug/HSMSMessage.dll
+/Users/pengfeihong/Documents/Visual Studio 2015/Projects/CIM/HSMSMessage/obj/Debug/HSMSMessage.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\CIM\HSMSMessage\obj\Debug\HSMSMessage.csproj.CoreCompileInputs.cache
 \\Mac\Home\Documents\Visual Studio 2015\Projects\CIM\HSMSMessage\bin\Debug\HSMSMessage.dll
 \\Mac\Home\Documents\Visual Studio 2015\Projects\CIM\HSMSMessage\bin\Debug\HSMSMessage.pdb
 \\Mac\Home\Documents\Visual Studio 2015\Projects\CIM\HSMSMessage\bin\Debug\HSMSDriver.dll
 \\Mac\Home\Documents\Visual Studio 2015\Projects\CIM\HSMSMessage\bin\Debug\log4net.dll
 \\Mac\Home\Documents\Visual Studio 2015\Projects\CIM\HSMSMessage\bin\Debug\HSMSDriver.pdb
 \\Mac\Home\Documents\Visual Studio 2015\Projects\CIM\HSMSMessage\bin\Debug\log4net.xml
-\\Mac\Home\Documents\Visual Studio 2015\Projects\CIM\HSMSMessage\obj\Debug\HSMSMessage.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2015\Projects\CIM\HSMSMessage\obj\Debug\HSMSMessage.csprojAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2015\Projects\CIM\HSMSMessage\obj\Debug\HSMSMessage.csproj.CopyComplete
 \\Mac\Home\Documents\Visual Studio 2015\Projects\CIM\HSMSMessage\obj\Debug\HSMSMessage.dll
 \\Mac\Home\Documents\Visual Studio 2015\Projects\CIM\HSMSMessage\obj\Debug\HSMSMessage.pdb

@@ -39,17 +39,27 @@ E:/代码/HSMSDemo/HSMSDriver/obj/Debug/HSMSDriver.pdb
 /Users/pengfeihong/Downloads/HSMSDemo/HSMSDemo/HSMSDriver/obj/Debug/HSMSDriver.csproj.CopyComplete
 /Users/pengfeihong/Downloads/HSMSDemo/HSMSDemo/HSMSDriver/obj/Debug/HSMSDriver.dll
 /Users/pengfeihong/Downloads/HSMSDemo/HSMSDemo/HSMSDriver/obj/Debug/HSMSDriver.pdb
-\\Mac\Home\Desktop\BOE\HSMSDemo20180930\HSMSDriver\bin\Debug\HSMSDriver.dll
-\\Mac\Home\Desktop\BOE\HSMSDemo20180930\HSMSDriver\bin\Debug\HSMSDriver.pdb
-\\Mac\Home\Desktop\BOE\HSMSDemo20180930\HSMSDriver\bin\Debug\log4net.dll
-\\Mac\Home\Desktop\BOE\HSMSDemo20180930\HSMSDriver\bin\Debug\log4net.xml
-\\Mac\Home\Desktop\BOE\HSMSDemo20180930\HSMSDriver\obj\Debug\HSMSDriver.csprojResolveAssemblyReference.cache
-\\Mac\Home\Desktop\BOE\HSMSDemo20180930\HSMSDriver\obj\Debug\HSMSDriver.dll
-\\Mac\Home\Desktop\BOE\HSMSDemo20180930\HSMSDriver\obj\Debug\HSMSDriver.pdb
+//Mac/Home/Desktop/BOE/HSMSDemo20180930/HSMSDriver/bin/Debug/HSMSDriver.dll
+//Mac/Home/Desktop/BOE/HSMSDemo20180930/HSMSDriver/bin/Debug/HSMSDriver.pdb
+//Mac/Home/Desktop/BOE/HSMSDemo20180930/HSMSDriver/bin/Debug/log4net.dll
+//Mac/Home/Desktop/BOE/HSMSDemo20180930/HSMSDriver/bin/Debug/log4net.xml
+//Mac/Home/Desktop/BOE/HSMSDemo20180930/HSMSDriver/obj/Debug/HSMSDriver.csprojResolveAssemblyReference.cache
+//Mac/Home/Desktop/BOE/HSMSDemo20180930/HSMSDriver/obj/Debug/HSMSDriver.dll
+//Mac/Home/Desktop/BOE/HSMSDemo20180930/HSMSDriver/obj/Debug/HSMSDriver.pdb
+/Users/pengfeihong/Documents/Visual Studio 2015/Projects/CIM/HSMSDriver/bin/Debug/HSMSDriver.dll
+/Users/pengfeihong/Documents/Visual Studio 2015/Projects/CIM/HSMSDriver/bin/Debug/HSMSDriver.pdb
+/Users/pengfeihong/Documents/Visual Studio 2015/Projects/CIM/HSMSDriver/bin/Debug/log4net.dll
+/Users/pengfeihong/Documents/Visual Studio 2015/Projects/CIM/HSMSDriver/bin/Debug/log4net.xml
+/Users/pengfeihong/Documents/Visual Studio 2015/Projects/CIM/HSMSDriver/obj/Debug/HSMSDriver.csproj.CoreCompileInputs.cache
+/Users/pengfeihong/Documents/Visual Studio 2015/Projects/CIM/HSMSDriver/obj/Debug/HSMSDriver.csproj.CopyComplete
+/Users/pengfeihong/Documents/Visual Studio 2015/Projects/CIM/HSMSDriver/obj/Debug/HSMSDriver.dll
+/Users/pengfeihong/Documents/Visual Studio 2015/Projects/CIM/HSMSDriver/obj/Debug/HSMSDriver.pdb
 \\Mac\Home\Documents\Visual Studio 2015\Projects\CIM\HSMSDriver\bin\Debug\HSMSDriver.dll
 \\Mac\Home\Documents\Visual Studio 2015\Projects\CIM\HSMSDriver\bin\Debug\HSMSDriver.pdb
 \\Mac\Home\Documents\Visual Studio 2015\Projects\CIM\HSMSDriver\bin\Debug\log4net.dll
 \\Mac\Home\Documents\Visual Studio 2015\Projects\CIM\HSMSDriver\bin\Debug\log4net.xml
-\\Mac\Home\Documents\Visual Studio 2015\Projects\CIM\HSMSDriver\obj\Debug\HSMSDriver.csprojResolveAssemblyReference.cache
+\\Mac\Home\Documents\Visual Studio 2015\Projects\CIM\HSMSDriver\obj\Debug\HSMSDriver.csproj.CoreCompileInputs.cache
+\\Mac\Home\Documents\Visual Studio 2015\Projects\CIM\HSMSDriver\obj\Debug\HSMSDriver.csproj.CopyComplete
 \\Mac\Home\Documents\Visual Studio 2015\Projects\CIM\HSMSDriver\obj\Debug\HSMSDriver.dll
 \\Mac\Home\Documents\Visual Studio 2015\Projects\CIM\HSMSDriver\obj\Debug\HSMSDriver.pdb
+\\Mac\Home\Documents\Visual Studio 2015\Projects\CIM\HSMSDriver\obj\Debug\HSMSDriver.csprojAssemblyReference.cache

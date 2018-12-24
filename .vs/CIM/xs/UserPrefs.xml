@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{9A3C7E15-C854-4CEE-9C49-AD6B3C180EC1}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CIM/MainForm.cs">
+    <Files>
+      <File FileName="CIM/MainForm.cs" Line="3" Column="29" />
+      <File FileName="CIM/MessageReceiveHandler.cs" Line="1" Column="1" />
+      <File FileName="CIM/Program.cs" Line="14" Column="18" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.CIM PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

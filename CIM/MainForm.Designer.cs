@@ -33,6 +33,10 @@
             CCWin.SkinControl.Animation animation1 = new CCWin.SkinControl.Animation();
             CCWin.CmSysButton cmSysButton1 = new CCWin.CmSysButton();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.skinButton2 = new CCWin.SkinControl.SkinButton();
+            this.skinButton1 = new CCWin.SkinControl.SkinButton();
+            this.skinWaterTextBox2 = new CCWin.SkinControl.SkinWaterTextBox();
+            this.skinWaterTextBox1 = new CCWin.SkinControl.SkinWaterTextBox();
             this.skinMenuStrip1 = new CCWin.SkinControl.SkinMenuStrip();
             this.开始ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.编辑ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -45,10 +49,6 @@
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.imageList = new System.Windows.Forms.ImageList(this.components);
-            this.skinWaterTextBox1 = new CCWin.SkinControl.SkinWaterTextBox();
-            this.skinWaterTextBox2 = new CCWin.SkinControl.SkinWaterTextBox();
-            this.skinButton1 = new CCWin.SkinControl.SkinButton();
-            this.skinButton2 = new CCWin.SkinControl.SkinButton();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -78,6 +78,54 @@
             this.splitContainer1.Size = new System.Drawing.Size(1368, 816);
             this.splitContainer1.SplitterDistance = 34;
             this.splitContainer1.TabIndex = 0;
+            // 
+            // skinButton2
+            // 
+            this.skinButton2.BackColor = System.Drawing.Color.Transparent;
+            this.skinButton2.ControlState = CCWin.SkinClass.ControlState.Normal;
+            this.skinButton2.DownBack = null;
+            this.skinButton2.Location = new System.Drawing.Point(1151, 5);
+            this.skinButton2.MouseBack = null;
+            this.skinButton2.Name = "skinButton2";
+            this.skinButton2.NormlBack = null;
+            this.skinButton2.Size = new System.Drawing.Size(75, 23);
+            this.skinButton2.TabIndex = 3;
+            this.skinButton2.Text = "Exit";
+            this.skinButton2.UseVisualStyleBackColor = false;
+            // 
+            // skinButton1
+            // 
+            this.skinButton1.BackColor = System.Drawing.Color.Transparent;
+            this.skinButton1.ControlState = CCWin.SkinClass.ControlState.Normal;
+            this.skinButton1.DownBack = null;
+            this.skinButton1.Location = new System.Drawing.Point(1059, 5);
+            this.skinButton1.MouseBack = null;
+            this.skinButton1.Name = "skinButton1";
+            this.skinButton1.NormlBack = null;
+            this.skinButton1.Size = new System.Drawing.Size(75, 23);
+            this.skinButton1.TabIndex = 3;
+            this.skinButton1.Text = "Login";
+            this.skinButton1.UseVisualStyleBackColor = false;
+            // 
+            // skinWaterTextBox2
+            // 
+            this.skinWaterTextBox2.Location = new System.Drawing.Point(800, 4);
+            this.skinWaterTextBox2.Name = "skinWaterTextBox2";
+            this.skinWaterTextBox2.Size = new System.Drawing.Size(218, 28);
+            this.skinWaterTextBox2.TabIndex = 2;
+            this.skinWaterTextBox2.Text = "password";
+            this.skinWaterTextBox2.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
+            this.skinWaterTextBox2.WaterText = "";
+            // 
+            // skinWaterTextBox1
+            // 
+            this.skinWaterTextBox1.Location = new System.Drawing.Point(567, 3);
+            this.skinWaterTextBox1.Name = "skinWaterTextBox1";
+            this.skinWaterTextBox1.Size = new System.Drawing.Size(218, 28);
+            this.skinWaterTextBox1.TabIndex = 1;
+            this.skinWaterTextBox1.Text = "username";
+            this.skinWaterTextBox1.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
+            this.skinWaterTextBox1.WaterText = "";
             // 
             // skinMenuStrip1
             // 
@@ -136,6 +184,7 @@
             this.开始ToolStripMenuItem.Name = "开始ToolStripMenuItem";
             this.开始ToolStripMenuItem.Size = new System.Drawing.Size(58, 28);
             this.开始ToolStripMenuItem.Text = "开始";
+            this.开始ToolStripMenuItem.Click += new System.EventHandler(this.开始ToolStripMenuItem_Click);
             // 
             // 编辑ToolStripMenuItem
             // 
@@ -223,7 +272,7 @@
             this.tabPage2.Location = new System.Drawing.Point(0, 90);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1368, 642);
+            this.tabPage2.Size = new System.Drawing.Size(1368, 688);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -267,54 +316,6 @@
             this.imageList.Images.SetKeyName(9, "ico_SysRepair.png");
             this.imageList.Images.SetKeyName(10, "ico_TraceCleaner.png");
             this.imageList.Images.SetKeyName(11, "ico_VulRepair.png");
-            // 
-            // skinWaterTextBox1
-            // 
-            this.skinWaterTextBox1.Location = new System.Drawing.Point(567, 3);
-            this.skinWaterTextBox1.Name = "skinWaterTextBox1";
-            this.skinWaterTextBox1.Size = new System.Drawing.Size(218, 28);
-            this.skinWaterTextBox1.TabIndex = 1;
-            this.skinWaterTextBox1.Text = "username";
-            this.skinWaterTextBox1.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
-            this.skinWaterTextBox1.WaterText = "";
-            // 
-            // skinWaterTextBox2
-            // 
-            this.skinWaterTextBox2.Location = new System.Drawing.Point(800, 4);
-            this.skinWaterTextBox2.Name = "skinWaterTextBox2";
-            this.skinWaterTextBox2.Size = new System.Drawing.Size(218, 28);
-            this.skinWaterTextBox2.TabIndex = 2;
-            this.skinWaterTextBox2.Text = "password";
-            this.skinWaterTextBox2.WaterColor = System.Drawing.Color.FromArgb(((int)(((byte)(127)))), ((int)(((byte)(127)))), ((int)(((byte)(127)))));
-            this.skinWaterTextBox2.WaterText = "";
-            // 
-            // skinButton1
-            // 
-            this.skinButton1.BackColor = System.Drawing.Color.Transparent;
-            this.skinButton1.ControlState = CCWin.SkinClass.ControlState.Normal;
-            this.skinButton1.DownBack = null;
-            this.skinButton1.Location = new System.Drawing.Point(1059, 5);
-            this.skinButton1.MouseBack = null;
-            this.skinButton1.Name = "skinButton1";
-            this.skinButton1.NormlBack = null;
-            this.skinButton1.Size = new System.Drawing.Size(75, 23);
-            this.skinButton1.TabIndex = 3;
-            this.skinButton1.Text = "Login";
-            this.skinButton1.UseVisualStyleBackColor = false;
-            // 
-            // skinButton2
-            // 
-            this.skinButton2.BackColor = System.Drawing.Color.Transparent;
-            this.skinButton2.ControlState = CCWin.SkinClass.ControlState.Normal;
-            this.skinButton2.DownBack = null;
-            this.skinButton2.Location = new System.Drawing.Point(1151, 5);
-            this.skinButton2.MouseBack = null;
-            this.skinButton2.Name = "skinButton2";
-            this.skinButton2.NormlBack = null;
-            this.skinButton2.Size = new System.Drawing.Size(75, 23);
-            this.skinButton2.TabIndex = 3;
-            this.skinButton2.Text = "Exit";
-            this.skinButton2.UseVisualStyleBackColor = false;
             // 
             // MainForm
             // 

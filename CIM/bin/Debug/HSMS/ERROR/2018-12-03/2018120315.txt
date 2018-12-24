@@ -1,0 +1,21 @@
+2018-12-03 15:47:09,436 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   在 HSMSDriver.SECSConnector.OpenActiveConnection() 位置 \\Mac\Home\Documents\Visual Studio 2015\Projects\CIM\HSMSDriver\SECSConnector.cs:行号 49
+2018-12-03 15:47:09,474 SystemBytes: null, ERRCODE: ReadError, ERRDESC: Read Error: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000..
+2018-12-03 15:47:15,488 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   在 HSMSDriver.SECSConnector.OpenActiveConnection() 位置 \\Mac\Home\Documents\Visual Studio 2015\Projects\CIM\HSMSDriver\SECSConnector.cs:行号 49
+2018-12-03 15:47:15,491 SystemBytes: null, ERRCODE: ReadError, ERRDESC: Read Error: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000..
+2018-12-03 15:47:21,500 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+System.Net.Sockets.SocketException (0x80004005): 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000
+   在 System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   在 System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
+   在 System.Net.Sockets.TcpClient.Connect(IPEndPoint remoteEP)
+   在 HSMSDriver.SECSConnector.OpenActiveConnection() 位置 \\Mac\Home\Documents\Visual Studio 2015\Projects\CIM\HSMSDriver\SECSConnector.cs:行号 49
+2018-12-03 15:47:21,501 SystemBytes: null, ERRCODE: ReadError, ERRDESC: Read Error: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:7000..

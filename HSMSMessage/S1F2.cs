@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace HSMSMessage
 {
-    public class S1F5
+    public class S1F2
     {
-        public string SFCD { get; set; }
+        public string MDLN { get; set; }
+        public string SOFTREV { get; set; }
     }
 }
